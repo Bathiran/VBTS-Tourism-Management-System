@@ -1,0 +1,103 @@
+.tourSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.tourSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.tour-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.tourSlider a.tour-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.tour-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.tour-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.tour-box img { display:block; }
+
+/* Caption styles */
+.tour-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.tour-caption p {
+	padding:5px;
+	margin:0;
+}
+.tour-caption a {
+	display:inline !important;
+}
+.tour-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.tour-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.tour-prevNav {
+	left:0px;
+}
+.tour-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.tour-controlNav {
+	text-align:center;
+	padding: 15px 0;
+}
+.tour-controlNav a {
+	cursor:pointer;
+}
+.tour-controlNav a.active {
+	font-weight:bold;
+}

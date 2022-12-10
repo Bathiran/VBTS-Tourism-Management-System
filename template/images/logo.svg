@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 18" width="118" height="18">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 27px;fill: #000000;font-weight: 700;font-family: "DarkerGrotesque-Bold", "Darker Grotesque" } 
+		.t1 { font-size: 27px;fill: #0c208f;font-weight: 700;font-family: "DarkerGrotesque-Bold", "Darker Grotesque" } 
+	</style>
+	<text id="VBTS" style="transform: matrix(1,0,0,1,4.602,16.848)" >
+		<tspan x="0" y="0" class="t0">V</tspan><tspan  y="0" class="t0">B</tspan><tspan  y="0" class="t1">T</tspan><tspan  y="0" class="t1">S</tspan><tspan  y="0" class="t1">
+</tspan>
+	</text>
+</svg>
